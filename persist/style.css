@@ -28,7 +28,7 @@ html, body {
 
 @font-face {
 	font-family: 'ameli';
-	src: url('persist/ameli.woff');
+	src: url('/persist/ameli.woff');
 	font-weight: normal;
 	font-style: normal;
 }
