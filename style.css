@@ -105,6 +105,21 @@ h1 {
 	float: right;
 }
 
+.pull-left {
+	float: left;
+}
+
+.lasti {
+	/*
+	* I dont have a fucking idea why but when I change this class to something like book-info
+	* the fucking css just stops working and lasti is the cringiest name for your class
+	* goddamn
+	*/
+    display: block;
+    text-align: right;
+    margin-top: 0.5em;
+}
+
 pre {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
