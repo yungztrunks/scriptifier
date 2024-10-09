@@ -36,8 +36,8 @@ html, body {
 .header {
 	min-height: 4em;
 	width: 50%;
-		color: inherit;
-		text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 	text-decoration-line: none;
 }
 
@@ -50,7 +50,7 @@ textarea {
 
 a {
 	color: inherit;
-	}
+}
 
 .tools {
 	margin-top: 0.5em;
@@ -86,9 +86,9 @@ h1 {
 	padding: 0 1em;
 }
 
-	.col > *:first-child {
-		margin-top: 0;
-	}
+.col > *:first-child {
+	margin-top: 0;
+}
 
 .i-output p {
 	position: absolute;
