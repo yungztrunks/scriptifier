@@ -89,14 +89,14 @@ pre {
 }
 
 #error {
-	background: #fff0f0;
+	background: #705252;
 	border-left: 0.5em solid #c00;
 	padding: 0.5em 0.5em 0.5em 1em;
 }
 
 mark {
 	background: #fc0;
-	color: #000;
+	color: #3f3434;
 	padding: 0.3em;
 	border-radius: 0.3em;
 	font-weight: bold;
