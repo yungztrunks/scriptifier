@@ -161,11 +161,19 @@
 
   </div>
 
-	<div class="col i i-output">
-		<p>
-			The minified output (<span id="stats"></span>)</p>
-		<textarea id="out" spellcheck="false" tabindex="3"></textarea>
-	</div>
+  <div class="col i i-output">
+    <p>
+      minified output (<span id="stats"></span>)</p>
+    <textarea id="out" spellcheck="false" tabindex="3"></textarea>
+    <div class="tools">
+      <button class="btn-main pull-left" id="btn-copy" tabindex="3">copy output</button>
+      <button class="btn-main pull-right" id="btn-gen-bookmarklet" tabindex="3">generate</button>
+      <input class="btn-main pull-right" id="title-bookmarklet" placeholder="bookmark title" spellcheck="false" tabindex="1"></input>
+    </div>
+    <br>
+    <a class="lasti" id="bookmarklet-final"></a>
+    <a class="lasti" id="drag-drop-notice"></a>
+  </div>
 
   <div class="col i i-error">
     <pre id="error"></pre>
