@@ -261,3 +261,28 @@ function select_text() {
 	};
 	return false;
 }
+
+function generate_bookmarklet() {
+    const code = $('out').value;
+    const title = $('title-bookmarklet').value;
+	const link = $('bookmarklet-final');
+	const notice = $("drag-drop-notice");
+
+    if (!code.trim()) {
+        console.error("No minified code to generate bookmarklet.");
+        return;
+    }
+
+    if (!title.trim()) {
+        console.error("No title provided for the bookmarklet.");
+        return;
+    }
+
+    const bookmarkletCode = `javascript:${code}`;
+
+    link.href = bookmarkletCode;
+    link.textContent = `${title}`;
+    link.title = title;
+
+	notice.textContent = "Drag the link to your bookmarks bar to save the bookmarklet";
+}
