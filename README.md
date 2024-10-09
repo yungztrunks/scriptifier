@@ -4,7 +4,7 @@ this repo is used on both my [github page](https://yungztrunks.github.io/uglifym
 
 simply past your code into the left box, create a title for your bookmark, and drag the link onto your bookmark bar under the address bar
 
-thought of this idea after finding [this](https://gist.github.com/adalinesimonian/b52a753c9fd6c176598745df01ba12dc) and [this](https://gist.github.com/rmtbb/e42d870a59a7f98091e734674831072b) gists
+thought of this idea after finding [this](https://gist.github.com/adalinesimonian/b52a753c9fd6c176598745df01ba12dc) and [this](https://gist.github.com/rmtbb/e42d870a59a7f98091e734674831072b) gist
 
 i wont change the design
 
